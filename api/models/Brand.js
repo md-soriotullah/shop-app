@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 // Schema
-const categorySchema = mongoose.Schema({
+const brandSchema = mongoose.Schema({
     name: {
         type: String,
         required: true,
@@ -34,4 +34,4 @@ const categorySchema = mongoose.Schema({
 );
 
 // Export model
-export default mongoose.model("Category", categorySchema);
+export default mongoose.model("Brand", brandSchema);
